@@ -2,7 +2,6 @@ site_id: modest-roentgen-ad536a.netlify.com
 backend:
     name: github
     repo: joshdrink/clone-jekyll-netlify # Path to your GitHub repository
-    site_id: modest-roentgen-ad536a.netlify.com
 publish_mode: editorial_workflow
 media_folder: "img/uploads"
 collections:
