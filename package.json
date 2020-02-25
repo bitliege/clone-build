@@ -1,35 +1,34 @@
 {
-    "name": "clone-jekyll-netlify",
-    "version": "1.0.0",
-    "description": "Sample.",
-    "main": "index.js",
-    "dependencies": {},
-    "devDependencies": {
-      "autoprefixer": "^9.7.4",
-      "browser-sync": "^2.26.7",
-      "browserslist": "^4.8.5",
-      "clone-framework": "^2.4.15",
-      "cssnano": "^4.1.10",
-      "gulp": "^4.0.2",
-      "gulp-postcss": "^8.0.0",
-      "gulp-replace": "^1.0.0",
-      "gulp-sass": "^4.0.2"
-    },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/joshdrink/design-history.git"
-    },
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/joshdrink/design-history/issues"
-    },
-    "homepage": "https://github.com/joshdrink/design-history#readme",
-    "browserslist": [
-      "last 1 version and not dead"
-    ]
-  }
-  
+  "name": "clone-jekyll-netlify",
+  "version": "1.0.0",
+  "description": "Sample.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "browserslist": "^4.8.5",
+    "clone-framework": "^2.4.15",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshdrink/design-history.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshdrink/design-history/issues"
+  },
+  "homepage": "https://github.com/joshdrink/design-history#readme",
+  "browserslist": [
+    "last 1 version and not dead"
+  ]
+}

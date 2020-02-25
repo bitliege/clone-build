@@ -1,6 +1,6 @@
 // =============================================================================
 
-  // Clone & Jekyll Boilerplate
+  // Clone, Jekyll, and Netlify Boilerplate
   // Authored by Josh Beveridge
 
 // =============================================================================
@@ -34,7 +34,7 @@ const autoprefixer = require('autoprefixer');
     // Clone JS
     function moveCloneJS() {
         return src('node_modules/clone-framework/dist/js/clone.min.js')
-        .pipe(dest('assets/js/clone'));
+        .pipe(dest('assets/js'));
     }
     // Sass
     function compile() {
