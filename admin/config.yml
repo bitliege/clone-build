@@ -4,7 +4,7 @@ backend:
   branch: master    # Branch for Netlify CMS to create Pull Requests against
   base_url: https://us-central1-netlify-cms-oauth-269122.cloudfunctions.net   # URL to the Google Cloud Function OAuth Client
   auth_endpoint: /cloud_run/auth
-  open_authoring: true
+  open_authoring: false
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 collections:
