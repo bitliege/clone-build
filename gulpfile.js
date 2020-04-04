@@ -13,6 +13,7 @@ const sass = require('gulp-sass');
 const browsersync = require('browser-sync').create();
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
 
 // Tasks
     // Browser Sync
@@ -41,6 +42,7 @@ const autoprefixer = require('autoprefixer');
         return src('assets/scss/**/*.scss')
         .pipe(sass())
         .pipe(postcss([autoprefixer()]))
+        .pipe(postcss([cssnano()]))
         .pipe(dest('assets/css'));
     }
     // Watch
