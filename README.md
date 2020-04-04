@@ -4,15 +4,10 @@ This boilerplate is great for basic sites with the goal of publishing content (b
 
 Prerequites for installation:
 - Jekyll
-  - install Jekyll on Windows
-  - install Jekyll on MacOS
+  - [install Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
+  - [install Jekyll on MacOS](https://jekyllrb.com/docs/installation/macos/)
 - Node & NPM
-  - install Node on Windows
-  - install Node on MacOS
-
-# Installation
-
-# Jekyll
+  - [install Node](https://nodejs.org/en/download/)
 
 ## Important Commands
 
@@ -23,6 +18,10 @@ Build and serve the site locally:
 
 Tell the app to watch and compile your SCSS files:
 `npm run clone`
+
+# Jekyll
+
+Learn more about Jekyll here: https://jekyllrb.com/docs/
 
 # Netlify CMS
 
