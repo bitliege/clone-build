@@ -16,7 +16,7 @@
     "gulp-sass": "^4.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clone": "npx gulp"
   },
   "repository": {
     "type": "git",
