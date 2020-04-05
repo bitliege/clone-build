@@ -49,6 +49,9 @@ function watchFiles() {
     watch('assets/scss/**/*.scss', series(compile, browserSyncReload));
     watch('assets/js/**/*.js', series(compile, browserSyncReload));
     watch('assets/img/**/*.js', series(compile, browserSyncReload));
+    watch('_includes/**/*', series(compile, browserSyncReload));
+    watch('_layouts/**/*', series(compile, browserSyncReload));
+    watch('_posts/**/*', series(compile, browserSyncReload));
 }
 
 // Exports
